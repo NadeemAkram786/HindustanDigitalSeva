@@ -1,0 +1,603 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*LAPTOP VIEW STARTS HERE*/
+/* Navbar in laptop starts*/
+.hds-navbar-entire-div {
+    background-image: linear-gradient(to right, #121F29, #335875);
+    position: relative;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.logo-and-brand-div {
+    position: relative;
+    margin: 10px;
+    width: 400px;
+}
+.logo {
+    width: 60px;
+    position: relative;
+    top: 18px;
+}
+.brand-name {
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: 30px;
+    position: relative;
+    top: 14px;
+    left: 15px;
+}
+.brand-name:hover {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+.brand-slogan {
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: 20px;
+    position: relative;
+    left: 80px;
+    bottom: 11px;
+}
+.brand-slogan:hover {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.hds-anchor-div {
+    position: absolute;
+    right: 30px;
+    top: 0;
+    font-size: 20px;
+}
+/* nav links and dropdown */
+.hds-ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+.hds-li {
+    float: left;
+}
+.hds-dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 38px 25px;
+    text-decoration: none;
+}
+.hds-dropdown:hover .hds-dropbtn {
+    background-color: #2F506B;
+    text-decoration: none;
+    color: #E75300;
+    height: 115px;
+}
+.hds-dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #2F506B;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+.hds-dropdown-content a {
+    color: #FFFFFF;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+.hds-dropdown-content a:hover {
+    color: #E75300;
+}
+.hds-dropdown:hover .hds-dropdown-content {
+    display: block;
+}
+/* nav links and dropdown ends*/
+/*get-started button*/
+.get-started-btn {
+    padding: 10px 35px;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 5%;
+    border: 2px solid #E75300;
+    color: white;
+    position: relative;
+    top: 40px;
+    text-decoration: none;
+}
+.get-started-btn:hover {
+    background-color: #E75300;
+    color: white;
+    text-decoration: none;
+}
+/*get-started button ends*/
+/*scroll navbar*/
+#scroll-navbar {
+    position: fixed;
+    width: 100%;
+    display: block;
+    transition: top 0.3s;
+    z-index: 10;
+}
+/*scroll navbar ends*/
+/*Navbar style ends*/
+
+/*slanted div starts*/
+.missionSlantedDiv {
+    position: relative;
+    width: 100%;
+    height: 1100px;
+    background-color: #233D50;
+    color: #FFFFFF;
+    font-family: "Ubuntu", sans-serif;
+}
+
+.missionSlantedDiv:after {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    content: '';
+    background-color: inherit;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    transform-origin: top left;
+    transform: skewY(4deg);
+}
+.missionContainerText {
+    position: absolute;
+    top: 200px;
+    z-index: 1;
+    left: 20%;
+    right: 20%;
+    text-align: center;
+}
+.missionContainerText img {
+    width: 90%;
+    border-radius: 3%;
+}
+.barSlantedDiv {
+    height: 54px;
+    transform: skewY(4deg);
+    background: linear-gradient(to right, #ffff 0%, #233d50 100%);
+}
+.missionContainerText hr {
+    background-color: #F75204;
+    width: 12%;
+    height: 3px;
+    margin: auto;
+}
+.missionContainerText h1 {
+    font-size: 50px;
+}
+/*slanted div ends*/
+
+/*aim container starts*/
+.ourMission {
+    margin: 0;
+    padding: 150px 0;
+    font-family: 'Ubuntu', sans-serif;
+}
+.aimImgDiv {
+    text-align: center;
+}
+.ourMission img {
+    width: 500px;
+    border-radius: 3%;
+}
+.ourMission p {
+    color: #1E3344;
+    margin: 17px 0;
+    font-size: 22px;
+}
+
+.aimTextDiv {
+    padding-right: 50px;
+}
+.aimTextDiv hr {
+    background-color: #F75204;
+    width: 12%;
+    height: 3px;
+
+}
+/*aim container ends*/
+
+/*vision starts*/
+.vision {
+    margin: 0;
+    padding: 150px 0;
+    font-family: 'Ubuntu', sans-serif;
+}
+.visionText {
+    padding-left: 137px;
+}
+.visionText hr {
+    background-color: #F75204;
+    width: 12%;
+    height: 3px;
+}
+.visionText p {
+    font-size: 22px;
+}
+.visionImg {
+
+}
+.visionImg img {
+    width: 573px;
+    border-radius: 3%;
+}
+/*vision ends*/
+
+/*footer starts */
+.footer-main-div {
+    background-color: #233D50;
+    padding: 60px 0;
+    font-family: "Ubuntu", sans-serif;
+}
+.footerLinks {
+    text-align: center;
+    color: #FFFFFF;
+}
+.footerLinks a {
+    text-decoration: none;
+    color: #FFFFFF;
+    margin: 0 30px;
+}
+.footerLinks a:hover {
+    color: #F75204;
+}
+.footer-main-div hr {
+    background-color: #FFFFFF;
+    width: 75%;
+    height: 1px;
+    margin: 30px auto;
+}
+.copyRight {
+    text-align: center;
+    color: #FFFFFF;
+}
+.copyRight a {
+    font-size: 30px;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+.copyRight a:hover {
+    color: #F75204;
+}
+/*footer ends*/
+/*LAPTOP VIEW ENDS HERE*/
+
+/*MOBILE VIEW STYLES STARTS HERE*/
+/*MOBILE VIEW STARTS*/
+/*Nav in mobile starts*/
+#hds-nav-mobile {
+    display: none;
+    position: fixed;
+    width: 100%;
+    transition: top 0.3s;
+    z-index: 10;
+}
+.hds-mob-top-nav {
+    background-image: linear-gradient(to right, #121F29, #335875);
+    height: 70px;
+    color: #ffff;
+}
+.hds-mob-logo {
+    top: 11px;
+    left: 10px;
+    width: 39px;
+    position: absolute;
+}
+.hds-mob-top-nav h1{
+    font-size: 20px;
+    position: absolute;
+    left: 53px;
+    top: 8px;
+}
+.hds-mob-top-nav h2 {
+    font-size: 15px;
+    position: absolute;
+    left: 54px;
+    top: 37px;
+}
+.hds-slide-toggle-btn {
+    position: absolute;
+    right: 21px;
+    color: #FFFFFF;
+    background: none;
+    top: 4px;
+    font-size: 39px;
+    border-radius: 20%;
+    width: 40px;
+    border: none;
+    outline: none;
+}
+.hds-slide-toggle-btn:hover {
+    color: #E75300;
+    background: none;
+    border: none;
+    outline: none;
+}
+.hds-mob-sidenav {
+
+    position: fixed;
+    width: 270px;
+    height: 100%;
+    background-color: #1E3344;
+    left: -270px;
+    bottom: 0;
+    overflow-y: scroll;
+    z-index: 1;
+    transition: left 0.4s ease;
+}
+.hds-side-nav-show {
+    left: 0;
+}
+.hds-mob-sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #FFFFFF;
+    display: block;
+    border: none;
+    background: none;
+    width: 100%;
+    text-align: left;
+    cursor: pointer;
+    outline: none;
+}
+.hds-submenu-btn {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #FFFFFF;
+    display: block;
+    border: none;
+    background: none;
+    width: 100%;
+    text-align: left;
+    cursor: pointer;
+    outline: none;
+}
+.hds-mob-sidenav a:hover {
+    color: #F75204;
+}
+.hds-submenu-btn:hover {
+    color: #F75204;
+}
+.hds-active {
+    background-color: #28445A;
+    color: white;
+}
+.hds-submenu-container {
+    display: none;
+    background-color: #172733;
+    padding-left: 8px;
+}
+.fa-caret-down {
+    float: right;
+    padding-right: 8px;
+}
+.hds-mob-sidenav h1 {
+    color: white;
+    font-size: 22px;
+    text-align: center;
+    padding-top: 10px;
+}
+.hds-mob-sidenav h2 {
+    color: white;
+    font-size: 19px;
+    text-align: center;
+}
+.hds-mob-sidenav hr {
+    border-top: 8px dotted darkgrey;
+    position: relative;
+    width: 50%;
+    left: 61px;
+    margin-top: 30px;
+}
+/*Nav in mobile ends*/
+/*slanted div starts in mob*/
+.slantedMob {
+    display: none;
+    position: relative;
+    width: 100%;
+    height: 650px;
+    background-color: #233D50;
+    color: #FFFFFF;
+    font-family: "Ubuntu", sans-serif;
+}
+.slantedMob:after {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    content: '';
+    background-color: inherit;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    transform-origin: top left;
+    transform: skewY(4deg);
+}
+.missionTextMob {
+    position: absolute;
+    top: 100px;
+    z-index: 1;
+    text-align: center;
+    left: 10px;
+    right: 10px;
+}
+.missionImageMob {
+    text-align: center;
+}
+.marginForHrInSlantedMob {
+    margin-bottom: 10px
+}
+.missionTextMob hr {
+    background-color: #F75204;
+    width: 15%;
+    height: 3px;
+    margin: auto;
+}
+.missionTextMob img {
+    width: 350px;
+    border-radius: 3%;
+}
+.barSlantedMob {
+    display: none;
+    height: 20px;
+    transform: skewY(4deg);
+    background: linear-gradient(to right, #ffff 0%, #233d50 100%);
+}
+/*slanted div ends in mob*/
+/*mission mob starts*/
+.OurMissionMob {
+    margin: 0;
+    display: none;
+}
+.OurMissionImgMob {
+    padding: 70px 40px 0 40px;
+}
+.OurMissionImgMob img {
+    width: 100%;
+    border-radius: 3%;
+}
+.OurMissionTextMob {
+    font-family: "Ubuntu", sans-serif;
+    padding: 10px 40px 20px 40px;
+}
+.OurMissionTextMob hr {
+    background-color: #F75204;
+    width: 30%;
+    height: 3px;
+}
+/*mission mob ends*/
+/*vision starts here*/
+.visionMob {
+    display: none;
+    margin: 0;
+}
+.ourVisionImgMob {
+    padding: 70px 40px 0 40px;
+}
+.ourVisionImgMob img {
+    width: 100%;
+    border-radius: 3%;
+}
+.ourVisionTextMob {
+    font-family: "Ubuntu", sans-serif;
+    padding: 10px 40px 20px 40px;
+}
+.ourVisionTextMob hr {
+    background-color: #F75204;
+    width: 30%;
+    height: 3px;
+}
+/*vision ends here*/
+/*Footer in mobile starts*/
+#footerhdsMainDivMob {
+    display: none;
+}
+.footerhdsMob {
+    padding: 80px 30px;
+    background-color: #233D50;
+    font-family: "Ubuntu", sans-serif;
+}
+.footerLinksMob {
+    text-align: center;
+    color: #FFFFFF;
+}
+.footerLinksMob a {
+    color: #FFFFFF;
+}
+.twoLinks {
+    margin-bottom: 10px;
+}
+.twoLinks a {
+    margin: 0 44px;
+}
+.privacyPolicyMob {
+    margin-right: 63px;
+}
+.footerhdsMob hr {
+    background-color: #FFFFFF;
+    width: 75%;
+    height: 1px;
+    margin: 20px auto;
+}
+.copyrightMob {
+    color: #FFFFFF;
+    text-align: center;
+}
+.copyrightMob a {
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 20px;
+}
+/*footer in mobile ends*/
+
+/*MOBILE VIEW STYLES ENDS HERE*/
+
+@media only screen and (max-width: 998px) {  /* On Mobile View */
+    #scroll-navbar {
+        display: none;
+    }
+    .missionSlantedDiv {
+        display: none;
+    }
+    .barSlantedDiv {
+        display: none;
+    }
+    .ourMission {
+        display: none;
+    }
+    .vision {
+        display: none;
+    }
+    .footer-main-div {
+        display: none;
+    }
+    #hds-nav-mobile {
+        display: block;
+    }
+    .slantedMob{
+        display: block;
+    }
+    .barSlantedMob {
+        display: block;
+    }
+    .OurMissionMob {
+        display: block;
+    }
+    .visionMob {
+        display: block;
+    }
+    #footerhdsMainDivMob {
+        display: block;
+    }
+}
+
+@media screen and  (min-width: 998px) and (max-width: 1234px) { /* On Tablet */
+    .brand-name {
+        font-size: 25px;
+    }
+    .brand-slogan {
+        font-size: 16px;
+    }
+    .hds-anchor-div {
+        right: 10px;
+        font-size: 15px;
+    }
+    .visionImg img {
+        width: 475px
+    }
+    .ourMission img {
+        width: 479px;
+    }
+}

@@ -1,0 +1,1370 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*LAPTOP VIEW STARTS HERE*/
+/* Navbar in laptop starts*/
+.hds-navbar-entire-div {
+    background-image: linear-gradient(to right, #121F29, #335875);
+    position: relative;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.logo-and-brand-div {
+    position: relative;
+    margin: 10px;
+    width: 400px;
+}
+.logo {
+    width: 60px;
+    position: relative;
+    top: 18px;
+}
+.brand-name {
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: 30px;
+    position: relative;
+    top: 14px;
+    left: 15px;
+}
+.brand-name:hover {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+.brand-slogan {
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: 20px;
+    position: relative;
+    left: 80px;
+    bottom: 11px;
+}
+.brand-slogan:hover {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.hds-anchor-div {
+    position: absolute;
+    right: 30px;
+    top: 0;
+    font-size: 20px;
+}
+/* nav links and dropdown */
+.hds-ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+.hds-li {
+    float: left;
+}
+.hds-dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 38px 25px;
+    text-decoration: none;
+}
+.hds-dropdown:hover .hds-dropbtn {
+    background-color: #2F506B;
+    text-decoration: none;
+    color: #E75300;
+    height: 115px;
+}
+.hds-dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #2F506B;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+.hds-dropdown-content a {
+    color: #FFFFFF;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+.hds-dropdown-content a:hover {
+    color: #E75300;
+}
+.hds-dropdown:hover .hds-dropdown-content {
+    display: block;
+}
+/* nav links and dropdown ends*/
+/*get-started button*/
+.get-started-btn {
+    padding: 10px 35px;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 5%;
+    border: 2px solid #E75300;
+    color: white;
+    position: relative;
+    top: 40px;
+    text-decoration: none;
+}
+.get-started-btn:hover {
+    background-color: #E75300;
+    color: white;
+    text-decoration: none;
+}
+/*get-started button ends*/
+/*scroll navbar*/
+#scroll-navbar {
+    position: fixed;
+    width: 100%;
+    display: block;
+    transition: top 0.3s;
+    z-index: 1;
+}
+/*scroll navbar ends*/
+/*Navbar style ends*/
+
+/*services home starts*/
+.services-home {
+    background-image: url("../images/services/services-home.jpg");
+    height: 750px;
+    color: #FFFFFF;
+    font-family: "Ubuntu", sans-serif;
+}
+.services-Text {
+    padding-top: 170px;
+}
+.services-Text hr {
+    background-color: #F75204;
+    width: 30%;
+    height: 3px;
+    margin-left: 80px;
+
+}
+.services-Text h1 {
+    font-size: 50px;
+    padding-left: 80px;
+}
+.services-Text p {
+    font-size: 30px;
+    margin-left: 80px;
+    width: 55%;
+}
+.services-Text button {
+    background-color: #F75204;
+    color: #FFFFFF;
+    margin-left: 80px;
+    margin-top: 30px;
+}
+.services-Text button:hover {
+    background-color: #FFFFFF;
+    color: #F75204;
+}
+/*services home ends*/
+
+/*banner starts*/
+.horizontal-line hr {
+    background-color: #F75204;
+    width: 100%;
+    height: 10px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+/*banner ends*/
+
+/*Our Top Services Starts*/
+.ourTopServicesDiv {
+    text-align: center;
+    color: #FFFFFF;
+    font-family: "Ubuntu", sans-serif;
+    background-color: #233D50;
+    padding: 150px 0 100px 0;
+}
+
+.ourTopServicesDiv h1 {
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+
+.ourTopServicesDiv hr {
+    background-color: #F75204;
+    width: 7%;
+    height: 5px;
+    margin: auto;
+}
+
+.ourTopServicesDiv img {
+    width: 20%;
+    margin-bottom: 20px;
+}
+/*Our Top Services Ends*/
+
+/*Line Separator Starts*/
+.lineSeparatorFirst {
+    background-color: #233D50;
+    padding-bottom: 100px;
+}
+.lineSeparatorFirst hr {
+    border: dotted #F75204 20px;
+    border-bottom: none;
+    width: 20%;
+    margin: auto;
+    opacity: 50%;
+}
+/*Line Separator Ends*/
+
+/*General Solutions Starts*/
+.general-solution {
+    margin-right: 0;
+    background-color: #233D50;
+    padding: 150px 80px 80px 90px;
+    color: #FFFFFF;
+    font-family: "Ubuntu", sans-serif;
+}
+.generalSolutionImgDiv {
+    text-align: center;
+}
+.general-solution img {
+    width: 500px;
+    border-radius: 3%;
+    height: 477px;
+}
+.general-solution h1 {
+}
+.general-solution a {
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: 20px;
+}
+.general-solution a:hover {
+    color: #F75204;
+}
+
+.general-solution h1 {
+    margin-bottom: 20px;
+}
+/*General Solutions Ends*/
+
+/*Photo Studio Starts*/
+.photoStudio {
+    margin: 0;
+    background-color: #233D50;
+    color: #FFFFFF;
+    font-family: "Ubuntu", sans-serif;
+    padding: 150px 50px;
+}
+.photoStudioImageDiv {
+    /*text-align: center;*/
+}
+.photoStudio img {
+    width: 500px;
+    border-radius: 3%;
+    height: 320px;
+    padding-left: 22px;
+}
+.photoStudioTextDiv {
+    padding-left: 80px;
+}
+.photoStudioTextDiv h1 {
+    margin-bottom: 20px;
+}
+.photoStudio a {
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: 20px;
+}
+.photoStudio a:hover {
+    color: #F75204;
+}
+/*Photo Studio Ends*/
+
+/*CSC starts*/
+.csc {
+    margin: 0;
+    background-color: #233D50;
+    padding: 150px 50px;
+    color: #FFFFFF;
+    font-family: "Ubuntu", sans-serif;
+}
+.imgCscDiv {
+    text-align: center;
+}
+.csc img {
+    width: 500px;
+    border-radius: 3%;
+    height: 438px;
+}
+.csc h1 {
+    margin-bottom: 20px;
+}
+.csc a {
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: 20px;
+}
+.csc a:hover {
+    color: #F75204;
+}
+.cscText {
+    padding-left: 40px;
+}
+/*CSC ends*/
+
+/*E tender Starts*/
+.eTender {
+    margin: 0;
+    background-color: #233D50;
+    padding: 150px 50px;
+    color: #FFFFFF;
+    font-family: "Ubuntu", sans-serif;
+}
+.eTender h1 {
+    padding-bottom: 20px;
+}
+.eTender img {
+    width: 500px;
+    border-radius: 3%;
+    height: 438px;
+    margin-left: 23px;
+}
+.eTenderText {
+    padding-left: 96px;
+}
+.eTender a {
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: 20px;
+}
+.eTender a:hover {
+    color: #F75204;
+}
+/*E tender Ends*/
+
+/*Traver Starts*/
+.travel {
+    margin: 0;
+    background-color: #233D50;
+    padding: 150px 50px;
+    color: #FFFFFF;
+    font-family: "Ubuntu", sans-serif;
+}
+.travelImage {
+    padding-left: 60px;
+}
+.travelText {
+    padding-left: 30px;
+}
+.travel h1 {
+    padding-bottom: 20px;
+}
+.travel a {
+    font-size: 20px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.travel a:hover {
+    color: #F75204;
+}
+.travel img {
+    width: 500px;
+    border-radius: 3%;
+    height: 400px;
+    margin-left: 23px;
+}
+/*Traver Ends*/
+
+/*Transportation Starts*/
+.transportation {
+    margin: 0;
+    background-color: #233D50;
+    padding: 150px 50px;
+    color: #FFFFFF;
+    font-family: "Ubuntu", sans-serif;
+}
+.transportation img {
+    width: 500px;
+    border-radius: 3%;
+    height: 400px;
+    margin-left: 15px;
+}
+.transportationText {
+    padding-left: 90px;
+}
+.transportation a {
+    font-size: 20px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.transportation a:hover {
+    color: #F75204;
+}
+.transportation h1 {
+    padding-bottom: 20px;
+}
+/*Transportation Ends*/
+
+/*Insurance Starts*/
+.insurance {
+    margin: 0;
+    background-color: #233D50;
+    padding: 150px 50px;
+    color: #FFFFFF;
+    font-family: "Ubuntu", sans-serif;
+}
+.insuranceImgDiv {
+    padding-left: 80px;
+}
+.insurance img {
+    width: 500px;
+    border-radius: 3%;
+    height: 400px;
+    margin-left: 15px;
+}
+.insuranceTextDiv {
+    padding-left: 40px;
+}
+.insurance h1 {
+    padding-bottom: 20px;
+}
+.insurance a {
+    font-size: 20px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.insurance a:hover {
+    color: #F75204;
+}
+/*Insurance Ends*/
+
+/*epf starts*/
+.epf {
+    margin: 0;
+    background-color: #233D50;
+    padding: 150px 50px;
+    color: #FFFFFF;
+    font-family: "Ubuntu", sans-serif;
+}
+.epfImgDiv {
+    padding-left: 50px;
+}
+.epf img {
+    width: 450px;
+    border-radius: 3%;
+    height: 400px;
+}
+.epfText {
+    padding-left: 80px;
+}
+.epf h1 {
+    padding-bottom: 20px;
+}
+.epf a {
+    font-size: 20px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.epf a:hover {
+    color: #F75204;
+}
+/*epf ends*/
+
+/*Digital Transaction Starts*/
+.digitalTrans {
+    margin: 0;
+    background-color: #233D50;
+    padding: 150px 50px;
+    color: #FFFFFF;
+    font-family: "Ubuntu", sans-serif;
+}
+.transactionImageDiv {
+    padding-left: 80px;
+}
+.transactionImageDiv img {
+    width: 500px;
+    border-radius: 3%;
+    height: 400px;
+    margin-left: 15px;
+}
+.transactionTextDiv {
+    padding-left: 40px;
+}
+.digitalTrans h1 {
+    padding-bottom: 20px;
+}
+.digitalTrans a {
+    font-size: 20px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.digitalTrans a:hover {
+    color: #F75204;
+}
+/*Digital Transaction Ends*/
+
+/*Software Solutions Starts*/
+.softwareSolutions {
+    margin: 0;
+    background-color: #233D50;
+    padding: 150px 50px;
+    color: #FFFFFF;
+    font-family: "Ubuntu", sans-serif;
+}
+.softwareImageDiv {
+    padding-left: 50px;
+}
+.softwareSolutions img {
+    width: 500px;
+    border-radius: 3%;
+    height: 480px;
+}
+.softwareText {
+    padding-left: 80px;
+}
+.softwareSolutions h1 {
+    padding-bottom: 20px;
+}
+.softwareSolutions a {
+    font-size: 20px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.softwareSolutions a:hover {
+    color: #F75204;
+}
+/*Software Solutions Ends*/
+
+/*Web dev stats*/
+.webDev {
+    margin: 0;
+    background-color: #233D50;
+    padding: 150px 50px;
+    color: #FFFFFF;
+    font-family: "Ubuntu", sans-serif;
+}
+.webDevImageDiv {
+    padding-left: 80px;
+}
+.webDev img {
+    width: 578px;
+    border-radius: 3%;
+    height: 413px;
+    margin-left: 15px;
+}
+.webDevText {
+    padding-left: 40px;
+}
+.webDev h1 {
+    padding-bottom: 20px;
+}
+.webDev a {
+    font-size: 20px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.webDev a:hover {
+    color: #F75204;
+}
+/*Web dev Ends*/
+
+/*Cyber Security Starts*/
+.cyberSecurity {
+    margin: 0;
+    background-color: #233D50;
+    padding: 150px 50px;
+    color: #FFFFFF;
+    font-family: "Ubuntu", sans-serif;
+}
+.cyberImageDiv {
+    padding-left: 50px;
+}
+.cyberSecurity img {
+    width: 625px;
+    border-radius: 3%;
+    height: 551px;
+}
+.cyberText {
+    padding-left: 80px;
+}
+.cyberSecurity h1 {
+    padding-bottom: 20px;
+}
+.cyberSecurity a {
+    font-size: 20px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.cyberSecurity a:hover {
+    color: #F75204;
+}
+/*cyberSecurity Ends*/
+
+/*footer Starts*/
+.footer-main-div {
+    background-color: #233D50;
+    padding: 60px 0;
+    font-family: "Ubuntu", sans-serif;
+}
+.footerLinks {
+    text-align: center;
+    color: #FFFFFF;
+}
+.footerLinks a {
+    text-decoration: none;
+    color: #FFFFFF;
+    margin: 0 30px;
+}
+.footerLinks a:hover {
+    color: #F75204;
+}
+.footer-main-div hr {
+    background-color: #FFFFFF;
+    width: 75%;
+    height: 1px;
+    margin: 30px auto;
+}
+.copyRight {
+    text-align: center;
+    color: #FFFFFF;
+}
+.copyRight a {
+    font-size: 30px;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+.copyRight a:hover {
+    color: #F75204;
+}
+/*footer Ends*/
+/*LAPTOP VIEW ENDS*/
+
+/*MOBILE VIEW STARTS*/
+/*Nav in mobile starts*/
+#hds-nav-mobile {
+    display: none;
+    position: fixed;
+    width: 100%;
+    transition: top 0.3s;
+    z-index: 1;
+}
+.hds-mob-top-nav {
+    background-image: linear-gradient(to right, #121F29, #335875);
+    height: 70px;
+    color: #ffff;
+}
+.hds-mob-logo {
+    top: 11px;
+    left: 10px;
+    width: 39px;
+    position: absolute;
+}
+.hds-mob-top-nav h1{
+    font-size: 20px;
+    position: absolute;
+    left: 53px;
+    top: 8px;
+}
+.hds-mob-top-nav h2 {
+    font-size: 15px;
+    position: absolute;
+    left: 54px;
+    top: 37px;
+}
+.hds-slide-toggle-btn {
+    position: absolute;
+    right: 21px;
+    color: #FFFFFF;
+    background: none;
+    top: 4px;
+    font-size: 39px;
+    border-radius: 20%;
+    width: 40px;
+    border: none;
+    outline: none;
+}
+.hds-slide-toggle-btn:hover {
+    color: #E75300;
+    background: none;
+    border: none;
+    outline: none;
+}
+.hds-mob-sidenav {
+
+    position: fixed;
+    width: 270px;
+    height: 100%;
+    background-color: #1E3344;
+    left: -270px;
+    bottom: 0;
+    overflow-y: scroll;
+    z-index: 1;
+    transition: left 0.4s ease;
+}
+.hds-side-nav-show {
+    left: 0;
+}
+.hds-mob-sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #FFFFFF;
+    display: block;
+    border: none;
+    background: none;
+    width: 100%;
+    text-align: left;
+    cursor: pointer;
+    outline: none;
+}
+.hds-submenu-btn {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #FFFFFF;
+    display: block;
+    border: none;
+    background: none;
+    width: 100%;
+    text-align: left;
+    cursor: pointer;
+    outline: none;
+}
+.hds-mob-sidenav a:hover {
+    color: #F75204;
+}
+.hds-submenu-btn:hover {
+    color: #F75204;
+}
+.hds-active {
+    background-color: #28445A;
+    color: white;
+}
+.hds-submenu-container {
+    display: none;
+    background-color: #172733;
+    padding-left: 8px;
+}
+.fa-caret-down {
+    float: right;
+    padding-right: 8px;
+}
+.hds-mob-sidenav h1 {
+    color: white;
+    font-size: 22px;
+    text-align: center;
+    padding-top: 10px;
+}
+.hds-mob-sidenav h2 {
+    color: white;
+    font-size: 19px;
+    text-align: center;
+}
+.hds-mob-sidenav hr {
+    border-top: 8px dotted darkgrey;
+    position: relative;
+    width: 50%;
+    left: 61px;
+    margin-top: 30px;
+}
+/*Nav in mobile ends*/
+/*services home container in mob starts */
+.services-home-mob {
+    display: none;
+    background-image: url("../images/services/services-home-mob.jpg");
+    height: 600px;
+    color: #FFFFFF;
+    font-family: "Ubuntu", sans-serif;
+}
+.servicesText-mob {
+    padding: 110px 20px 20px 20px;
+    text-align: center;
+}
+.servicesText-mob hr {
+    background-color: #F75204;
+    width: 60%;
+    height: 3px;
+    margin: auto;
+}
+.hrInsideServicesHomeMob {
+    padding: 10px 0 20px 0;
+}
+.servicesText-mob p {
+    font-size: 20px;
+}
+.servicesText-mob button {
+    background-color: #F75204;
+    color: #FFFFFF;
+}
+.servicesText-mob button:hover {
+    background-color: #FFFFFF;
+    color: #F75204;
+}
+/*services home container in mob ends */
+
+/*services logo in mob starts here*/
+.servicesLogoMob {
+    display: none;
+    text-align: center;
+    font-family: "Ubuntu", sans-serif;
+    background-color: #233D50;
+    color: #FFFFFF;
+    padding-top: 80px
+}
+.servicesLogoMob img {
+    width: 70%;
+}
+.servicesLogoMob hr {
+    background-color: #F75204;
+    width: 30%;
+    height: 5px;
+    margin: auto;
+}
+/*services logo in mob ends here*/
+
+/*general solution in mobile starts*/
+.generalSolutionsMob {
+    display: none;
+    color: #FFFFFF;
+    font-family: "Ubuntu", sans-serif;
+    background-color: #233D50;
+}
+.generalSolutionsImgMob {
+    text-align: center;
+    padding: 70px 40px 20px 40px;
+}
+.generalSolutionsImgMob img {
+    width: 100%;
+    border-radius: 3%;
+}
+.generalSolutionsTextMob {
+    padding: 0 40px 40px 40px;
+}
+.generalSolutionsTextMob h1 {
+    font-size: 26px;
+    padding-bottom: 15px;
+}
+.generalSolutionsTextMob p {
+    font-size: 20px;
+}
+.generalSolutionsTextMob a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.generalSolutionsTextMob a:hover {
+    color: #F75204;
+}
+/*general solution in mobile ends*/
+/*photo studio in mob starts*/
+.photoStudioMob {
+    display: none;
+    color: #FFFFFF;
+    font-family: "Ubuntu", sans-serif;
+    background-color: #233D50;
+}
+.photoStudioImgMobDiv {
+    text-align: center;
+    padding: 70px 40px 20px 40px;
+}
+.photoStudioMob img {
+    width: 100%;
+    border-radius: 3%;
+}
+.photoStudioTextMobDiv {
+    padding: 0 40px 40px 40px;
+}
+.photoStudioTextMobDiv h1 {
+    font-size: 26px;
+    padding-bottom: 15px;
+}
+.photoStudioTextMobDiv p {
+    font-size: 20px;
+}
+.photoStudioTextMobDiv a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.photoStudioTextMobDiv a:hover {
+    color: #F75204;
+}
+/*photo studio in mob starts*/
+/*csc in mob starts*/
+.cscMob {
+    display: none;
+    color: #FFFFFF;
+    font-family: "Ubuntu", sans-serif;
+    background-color: #233D50;
+}
+.cscImgMob {
+    text-align: center;
+    padding: 70px 40px 20px 40px;
+}
+.cscImgMob img {
+    width: 100%;
+    border-radius: 3%;
+}
+.cscTextMob {
+    padding: 0 40px 40px 40px;
+}
+.cscTextMob h1 {
+    font-size: 26px;
+    padding-bottom: 15px;
+}
+.cscTextMob p {
+    font-size: 20px;
+}
+.cscTextMob a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.cscTextMob a:hover {
+    color: #F75204;
+}
+/*csc in mob ends*/
+/*e tender stars here in mob*/
+.eTenderMob {
+    display: none;
+    color: #FFFFFF;
+    font-family: "Ubuntu", sans-serif;
+    background-color: #233D50;
+}
+.eTenderImgMob {
+    text-align: center;
+    padding: 70px 40px 20px 40px;
+}
+.eTenderImgMob img {
+    width: 100%;
+    border-radius: 3%;
+}
+.eTenderTextMob {
+    padding: 0 40px 40px 40px;
+}
+.eTenderTextMob h1 {
+    font-size: 26px;
+    padding-bottom: 15px;
+}
+.eTenderTextMob p {
+    font-size: 20px;
+}
+.eTenderTextMob a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.eTenderTextMob a:hover {
+    color: #F75204;
+}
+/*e tender ends here in mob*/
+/*travel in mob starts*/
+.travelMob {
+    display: none;
+    color: #FFFFFF;
+    font-family: "Ubuntu", sans-serif;
+    background-color: #233D50;
+}
+.travelImgMob {
+    text-align: center;
+    padding: 70px 40px 20px 40px;
+}
+.travelImgMob img {
+    width: 100%;
+    border-radius: 3%;
+}
+.travelTextMob {
+    padding: 0 40px 40px 40px;
+}
+.travelTextMob h1 {
+    font-size: 26px;
+    padding-bottom: 15px;
+}
+.travelTextMob p {
+    font-size: 20px;
+}
+.travelTextMob a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.travelTextMob a:hover {
+    color: #F75204;
+}
+/*travel in mob ends*/
+/*transport mob stars */
+.transportMob {
+    display: none;
+    color: #FFFFFF;
+    font-family: "Ubuntu", sans-serif;
+    background-color: #233D50;
+}
+.transportImgMob {
+    text-align: center;
+    padding: 70px 40px 20px 40px;
+}
+.transportImgMob img {
+    width: 100%;
+    border-radius: 3%;
+}
+.transportTextMob {
+    padding: 0 40px 40px 40px;
+}
+.transportTextMob h1 {
+    font-size: 26px;
+    padding-bottom: 15px;
+}
+.transportTextMob p {
+    font-size: 20px;
+}
+.transportTextMob a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.transportTextMob a:hover {
+    color: #F75204;
+}
+/*transport mob ends */
+/*insurance mob stars */
+.insuranceMob {
+    display: none;
+    color: #FFFFFF;
+    font-family: "Ubuntu", sans-serif;
+    background-color: #233D50;
+}
+.insuranceImgMob {
+    text-align: center;
+    padding: 70px 40px 20px 40px;
+}
+.insuranceImgMob img {
+    width: 100%;
+    border-radius: 3%;
+}
+.insuranceTextMob {
+    padding: 0 40px 40px 40px;
+}
+.insuranceTextMob h1 {
+    font-size: 26px;
+    padding-bottom: 15px;
+}
+.insuranceTextMob p {
+    font-size: 20px;
+}
+.insuranceTextMob a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.insuranceTextMob a:hover {
+    color: #F75204;
+}
+/*insurance mob ends*/
+/*epf mob starts*/
+.epfMob {
+    display: none;
+    color: #FFFFFF;
+    font-family: "Ubuntu", sans-serif;
+    background-color: #233D50;
+}
+.epfImgMob {
+    text-align: center;
+    padding: 70px 40px 20px 40px;
+}
+.epfImgMob img {
+    width: 100%;
+    border-radius: 3%;
+}
+.epfTextMob {
+    padding: 0 40px 40px 40px;
+}
+.epfTextMob h1 {
+    font-size: 26px;
+    padding-bottom: 15px;
+}
+.epfTextMob p {
+    font-size: 20px;
+}
+.epfTextMob a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.epfTextMob a:hover {
+    color: #F75204;
+}
+/*epf mob ends*/
+/*transaction mob starts */
+.transactionMob {
+    display: none;
+    color: #FFFFFF;
+    font-family: "Ubuntu", sans-serif;
+    background-color: #233D50;
+}
+.transactionImgMob {
+    text-align: center;
+    padding: 70px 40px 20px 40px;
+}
+.transactionImgMob img {
+    width: 100%;
+    border-radius: 3%;
+}
+.transactionTextMob {
+    padding: 0 40px 40px 40px;
+}
+.transactionTextMob h1 {
+    font-size: 26px;
+    padding-bottom: 15px;
+}
+.transactionTextMob p {
+    font-size: 20px;
+}
+.transactionTextMob a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.transactionTextMob a:hover {
+    color: #F75204;
+}
+/*transaction mob ends*/
+/*software mob starts */
+.softwareMob {
+    display: none;
+    color: #FFFFFF;
+    font-family: "Ubuntu", sans-serif;
+    background-color: #233D50;
+}
+.softwareImgMob {
+    text-align: center;
+    padding: 70px 40px 20px 40px;
+}
+.softwareImgMob img {
+    width: 100%;
+    border-radius: 3%;
+}
+.softwareTextMob {
+    padding: 0 40px 40px 40px;
+}
+.softwareTextMob h1 {
+    font-size: 26px;
+    padding-bottom: 15px;
+}
+.softwareTextMob p {
+    font-size: 20px;
+}
+.softwareTextMob a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.softwareTextMob a:hover {
+    color: #F75204;
+}
+/*software mob ends*/
+/*web dev mob starts*/
+.webDevMob {
+    display: none;
+    color: #FFFFFF;
+    font-family: "Ubuntu", sans-serif;
+    background-color: #233D50;
+}
+.webDevImgMob {
+    text-align: center;
+    padding: 70px 40px 20px 40px;
+}
+.webDevImgMob img {
+    width: 100%;
+    border-radius: 3%;
+}
+.webDevTextMob {
+    padding: 0 40px 40px 40px;
+}
+.webDevTextMob h1 {
+    font-size: 26px;
+    padding-bottom: 15px;
+}
+.webDevTextMob p {
+    font-size: 20px;
+}
+.webDevTextMob a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.webDevTextMob a:hover {
+    color: #F75204;
+}
+/*web dev mob ends*/
+/*cyber mob starts*/
+.cyberMob {
+    display: none;
+    color: #FFFFFF;
+    font-family: "Ubuntu", sans-serif;
+    background-color: #233D50;
+}
+.cyberImgMob {
+    text-align: center;
+    padding: 70px 40px 20px 40px;
+}
+.cyberImgMob img {
+    width: 100%;
+    border-radius: 3%;
+}
+.cyberTextMob {
+    padding: 0 40px 40px 40px;
+}
+.cyberTextMob h1 {
+    font-size: 26px;
+    padding-bottom: 15px;
+}
+.cyberTextMob p {
+    font-size: 20px;
+}
+.cyberTextMob a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.cyberTextMob a:hover {
+    color: #F75204;
+}
+/*cyber mob ends*/
+/*Line Separator Footer in mob Starts*/
+.lineSeparatorFooterMob {
+    display: none;
+    background-color: #233D50;
+    padding: 50px 0;
+}
+.lineSeparatorFooterMob hr {
+    border: dotted #F75204 20px;
+    border-bottom: none;
+    width: 20%;
+    margin: auto;
+    opacity: 50%;
+}
+/*Line Separator footer in mob Ends*/
+/*Footer in mobile starts*/
+#footerhdsMainDivMob {
+    display: none;
+}
+.footerhdsMob {
+    padding: 80px 30px;
+    background-color: #233D50;
+    font-family: "Ubuntu", sans-serif;
+}
+.footerLinksMob {
+    text-align: center;
+    color: #FFFFFF;
+}
+.footerLinksMob a {
+    color: #FFFFFF;
+}
+.twoLinks {
+    margin-bottom: 10px;
+}
+.twoLinks a {
+    margin: 0 44px;
+}
+.privacyPolicyMob {
+    margin-right: 63px;
+}
+.footerhdsMob hr {
+    background-color: #FFFFFF;
+    width: 75%;
+    height: 1px;
+    margin: 20px auto;
+}
+.copyrightMob {
+    color: #FFFFFF;
+    text-align: center;
+}
+.copyrightMob a {
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 20px;
+}
+/*footer in mobile ends*/
+/*MOBILE VIEW ENDS*/
+
+
+@media only screen and (max-width: 998px) { /* On Mobile */
+    #scroll-navbar {
+        display: none;
+    }
+    #hds-nav-mobile {
+        display: block;
+    }
+    .lapViewContainer {
+        display: none;
+    }
+    .services-home-mob {
+        display: block;
+    }
+    .generalSolutionsMob {
+        display: block;
+    }
+    .servicesLogoMob {
+        display: block;
+    }
+    .photoStudioMob {
+        display: block;
+    }
+    .cscMob {
+        display: block;
+    }
+    .eTenderMob {
+        display: block;
+    }
+    .travelMob {
+        display: block;
+    }
+    .transportMob {
+        display: block;
+    }
+    .insuranceMob {
+        display: block;
+    }
+    .epfMob {
+        display: block;
+    }
+    .transactionMob {
+        display: block;
+    }
+    .softwareMob {
+        display: block;
+    }
+    .webDevMob {
+        display: block;
+    }
+    .cyberMob {
+        display: block;
+    }
+    #footerhdsMainDivMob {
+        display: block;
+    }
+    .lineSeparatorFooterMob {
+        display: block;
+    }
+}
+
+@media screen and  (min-width: 998px) and (max-width: 1234px) { /* On Tablet */
+    .brand-name {
+        font-size: 25px;
+    }
+    .brand-slogan {
+        font-size: 16px;
+    }
+    .hds-anchor-div {
+        right: 10px;
+        font-size: 15px;
+    }
+
+    .general-solution img {
+        width: 472px;
+    }
+    .webDev img {
+        width: 400px;
+    }
+    .travel img {
+        width: 425px;
+    }
+    .insurance img {
+        width: 425px;
+    }
+    .transactionImageDiv img {
+        width: 425px;
+    }
+    .cyberSecurity img {
+        width: 500px;
+    }
+
+}

@@ -45,3 +45,4 @@ https://getbootstrap.com/docs/4.1/getting-started/introduction/
 26. Have a glimpse has been added to hds site.
 27. testimonials updated.
 28. favicon updated and all links are now working except "follow us"
+29. contact us nav link fixed.

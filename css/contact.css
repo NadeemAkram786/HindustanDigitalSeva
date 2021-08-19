@@ -16,7 +16,7 @@
     width: 400px;
 }
 .logo {
-    width: 60px;
+    width: 45px;
     position: relative;
     top: 18px;
 }
@@ -25,7 +25,7 @@
     text-decoration: none;
     font-size: 30px;
     position: relative;
-    top: 14px;
+    top: 11px;
     left: 15px;
 }
 .brand-name:hover {
@@ -37,8 +37,8 @@
     text-decoration: none;
     font-size: 20px;
     position: relative;
-    left: 80px;
-    bottom: 11px;
+    left: 65px;
+    bottom: 7px;
 }
 .brand-slogan:hover {
     text-decoration: none;
@@ -141,7 +141,7 @@
 .hds-mob-logo {
     top: 11px;
     left: 10px;
-    width: 39px;
+    width: 33px;
     position: absolute;
 }
 .hds-mob-top-nav h1{

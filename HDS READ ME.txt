@@ -1,0 +1,50 @@
+This is version 1.3 of my HDS website.
+
+
+fonts used 
+
+font-family: 'Montserrat', sans-serif;
+font-family: 'Sacramento', cursive;
+font-family: 'Ubuntu', sans-serif;
+
+
+I have used the version of bootstrap 4.1
+
+https://getbootstrap.com/docs/4.1/getting-started/introduction/
+
+
+
+
+
+*******************work****************************
+1. I have coded again to get some clean slate
+2. I have completed the nav in laptop, 
+3. welcome and greetings tab completed.
+4. "why should" tab has been designed.
+5. and all the stuffs got hidden on small screen.
+6 Completed testimonials. 
+7. completed our partners.
+8. completed "engage and follow us".
+9. I have complete the footer. Next step  is to make responsive in tablet and then finally on mobile
+10. Navbar in mobile view completed with html, css and javascript.
+11. welcome and banner is ready in mobile view.
+12. navbar in mobile view also has sticky scroll. Awesome
+13. banner and why us completed in mobile view
+14. home page is almost ready in mobile view as well as in laptop view.
+15. services page is added, services home container has been added. HDS image refactor.
+16. Completed till software solutions.
+17. completed laptop view in services.
+18. completed services in mobile view.
+19. completed mission in laptop view.
+20. completed mission on mob view.
+21. company completed in laptop view.
+22. completed company in mobile view.
+23. Get started completed in all view. some bugs might need to be fixed.
+24. Next step is to link all the buttons in services page to customer care page. 
+25. all nav link is mapped to the customer care page.
+26. Have a glimpse has been added to hds site.
+27. testimonials updated.
+28. favicon updated and all links are now working except "follow us"
+29. favicon and logo updated.
+30. logo and brand slogan etc text updated.
+31. logo adjustment completed in all view except redundatn tab view.

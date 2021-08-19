@@ -31,12 +31,15 @@ for (i = 0; i < hdsSubMenuDropdown.length; i++) {
 $(".hds-slide-toggle-btn").click(function () {
     $('.hds-mob-sidenav').toggleClass("hds-side-nav-show");
 });
-$(".customerCare").click(function () {
-    $('.hds-mob-sidenav').removeClass("hds-side-nav-show");
-});
-$(".contactForm").click(function () {
-    $('.hds-mob-sidenav').removeClass("hds-side-nav-show");
-});
-$(".footerhdsMob").click(function () {
-    $('.hds-mob-sidenav').removeClass("hds-side-nav-show");
-});
+// $(".slantedMob").click(function () {
+//     $('.hds-mob-sidenav').removeClass("hds-side-nav-show");
+// });
+// $(".aboutUsMob").click(function () {
+//     $('.hds-mob-sidenav').removeClass("hds-side-nav-show");
+// });
+// $(".leadersMob").click(function () {
+//     $('.hds-mob-sidenav').removeClass("hds-side-nav-show");
+// });
+// $(".footerhdsMob").click(function () {
+//     $('.hds-mob-sidenav').removeClass("hds-side-nav-show");
+// });

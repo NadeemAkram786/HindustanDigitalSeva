@@ -49,4 +49,3 @@ https://getbootstrap.com/docs/4.1/getting-started/introduction/
 30. logo and brand slogan etc text updated.
 31. logo adjustment completed in all view except redundatn tab view.
 32. whatsapp link follow added
-33. ashiya delted fro website.

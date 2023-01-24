@@ -175,23 +175,23 @@
                 <form action="https://formsubmit.co/c32c202acedd569fec834bf3200d572b" method="POST" accept-charset="UTF-8">
                     <div class="form-group" >
                         <label for="exampleInputEmail1">Email address</label>
-                        <input type="email" name="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email" required>
+                        <input type="email" name="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email" required autocomplete="off">
                         <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
                     </div>
                     <div class="form-group">
                         <label for="nameCustomer">Your Awesome Name</label>
                         <input type="text" name="" class="form-control" id="nameCustomer" aria-describedby="emailHelp" placeholder="Enter Your Full Name" onkeydown="return /[a-z, ]/i.test(event.key)"
                                onblur="if (this.value == '') {this.value = '';}"
-                               onfocus="if (this.value == '') {this.value = '';}" required>
+                               onfocus="if (this.value == '') {this.value = '';}" required autocomplete="off">
                     </div>
                     <div class="form-group">
                         <label for="mobNumber">Your Mobile Number</label>
-                        <input type="number" name="name" class="form-control" id="mobNumber" aria-describedby="emailHelp" placeholder="Enter Your Mobile Number" pattern="\d*" onkeypress="return isNumber(event)" required>
+                        <input type="number" name="name" class="form-control" id="mobNumber" aria-describedby="emailHelp" placeholder="Enter Your Mobile Number" pattern="\d*" onkeypress="return isNumber(event)" required autocomplete="off">
                         <small class="form-text text-muted">We promise to never share your mobile number with anybody.</small>
                     </div>
                     <div class="form-group">
                         <label for="exampleFormControlTextarea1">Enter Your Query Here</label>
-                        <textarea name="message" class="form-control" id="exampleFormControlTextarea1" rows="4" placeholder="Enter Your Digital Query Here" required></textarea>
+                        <textarea name="message" class="form-control" id="exampleFormControlTextarea1" rows="4" placeholder="Enter Your Digital Query Here" required autocomplete="off"></textarea>
                     </div>
                     <input type="hidden" name="_gotcha"><!-- use this to prevent spam -->
                     <button type="submit" class="btn btn-primary">Submit</button>

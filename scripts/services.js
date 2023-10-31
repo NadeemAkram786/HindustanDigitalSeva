@@ -1,5 +1,5 @@
 // navbar scroll script for laptop and mobile
-var prevScrollpos = window.pageYOffset;
+let prevScrollpos = window.pageYOffset;
 window.onscroll = function() {
     var currentScrollPos = window.pageYOffset;
     if (prevScrollpos > currentScrollPos) {
@@ -14,8 +14,8 @@ window.onscroll = function() {
 // navbar scroll script for laptop and mobile
 
 //Navbar in mobile script
-var hdsSubMenuDropdown = document.getElementsByClassName("hds-submenu-btn");
-var i;
+let hdsSubMenuDropdown = document.getElementsByClassName("hds-submenu-btn");
+let i;
 
 for (i = 0; i < hdsSubMenuDropdown.length; i++) {
     hdsSubMenuDropdown[i].addEventListener("click", function() {
